@@ -1,0 +1,70 @@
+body {
+    background: antiquewhite;
+}
+
+#quote, #author {
+    text-align: center;
+    font-size:40px;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-weight: 300;
+    max-width:500px;
+    margin:80px auto 0;
+    
+}
+
+#author {
+    margin: 0 auto;
+    font-size:20px;
+    font-style: italic;
+    padding:15px;
+}
+
+
+
+#quote .quote-mark {
+    font-size:110px;
+    font-family: "Forum", Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    display: block;
+
+}
+
+#quote .quote-text {
+    display: inline-block;
+}
+
+#new-quote {
+    width:100px;
+    padding:10px 50px;
+    border-radius:20px;
+    margin: 40px auto;
+    cursor: pointer;
+    background: #ff5719;
+    color:white;
+     font-family: "Forum", Helvetica, sans-serif;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
+
+#new-quote:hover {
+    background:#ff4500;
+}
+
+#new-quote:active {
+    background: #e53e00;
+}
+
+.tweet-quote {
+    width: 28px;
+    height:auto;
+    margin:10px auto 0;
+    padding:0;
+}
+.tweet-quote img {
+    width: 55px;
+    display: block;
+    margin: 10px auto;
+}
